@@ -11,8 +11,7 @@ One way of styling react apps using vanilla CSS, is creating a separate CSS file
 A little extra: 
 *To use operations, variables, expressions or any kinda logic, you can use {} inside your elements, e.g., <p> My age is {3+16} </p> will result in - My age is 19.
 
-*And yeah, adjacent JSX elements must be enclosed in fragments,
-e.g., <> <h1>A</h1>  <h2>B</h2>  </>
+*And yeah, adjacent JSX elements must be enclosed in fragments, like <> .... </>
 
 *useState hook. It is used by destructuring it into an array, the first member of the array is the state variable, while the second member is the setter function for that variable.
 e.g., const [count, setCount] = useState(0). through this the count will be initially equal to 0. Now to change the count you can use something like, <button onClick = {() => setCount((prevCount)=>prevCount-1)} Decrease_Count </button>
